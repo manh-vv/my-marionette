@@ -1,0 +1,21 @@
+{
+  "name": "my-marionette",
+  "description": "dev",
+  "main": "index.js",
+  "authors": [
+    "manh.vu"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/manhvvhtth/my-marionette",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.6"
+  }
+}
