@@ -8,6 +8,10 @@
   },
   "author": "manh.vu",
   "license": "ISC",
+  "repository": {
+    "url": "https://github.com/manhvvhtth/my-marionette",
+    "type": "git"
+  },
   "dependencies": {
     "backbone.marionette": "2.4.7"
   }
