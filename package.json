@@ -1,0 +1,14 @@
+{
+  "name": "my-marionette",
+  "version": "1.0.0",
+  "description": "dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "-test"
+  },
+  "author": "manh.vu",
+  "license": "ISC",
+  "dependencies": {
+    "backbone.marionette": "2.4.7"
+  }
+}
