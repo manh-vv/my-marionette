@@ -1,0 +1,29 @@
+{
+  "name": "my-member",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "-test"
+  },
+  "author": "manh.vu",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/manhvvhtth/my-marionette/my-member",
+    "type": "git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "backbone": "1.3.3",
+    "backbone.marionette": "2.4.7",
+    "gulp": "3.9.1",
+    "gulp-rename": "1.2.2",
+    "gulp-size": "2.1.0",
+    "gulp-uglify": "1.5.4",
+    "gulp-webpack": "1.5.0",
+    "html-loader": "0.4.3",
+    "jquery": "3.1.0",
+    "json2": "0.4.0",
+    "path": "0.12.7",
+    "underscore": "1.8.3"
+  }
+}

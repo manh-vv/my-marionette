@@ -2,46 +2,55 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>My-Marionette</title>
+	<meta charset="UTF-8">
+	<title>My-Marionette</title>
 
-    <link rel="stylesheet" href=".vendor/bootstrap/dist/css/bootstrap.min.css" >
+	<link rel="stylesheet" href=".vendor/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
-<body>
+<body> <!-- begin: body -->
 
+<!-- navigation -->
 <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <span class="brand">Contact manager</span>
-        </div>
-    </div>
+	<div class="navbar-inner">
+		<div class="container">
+			<span class="brand">Contact manager</span>
+		</div>
+	</div>
 </div>
 
+<!-- content body -->
 <div id="app-container" class="container" style="padding-top: 60px">
-    <p>Here is static content in the web page. You'll notice that it gets
-        replaced by our app as soon as we start it.</p>
+	<p>Here is static content in the web page. You'll notice that it gets
+		replaced by our app as soon as we start it.</p>
 
-    <div id="main-region" class="row"></div>
+	<!-- main region -->
+	<div id="main-region" class="row"></div>
 </div>
 
+<!-- Begin: define template -->
 <script type="text/template" id="contact-template">
-    <p>This is text that was rendered by our Marionette app.</p>
-    <p><%- firstName %> <%- lastName %></p>
+	<p>This is text that was rendered by our Marionette app.</p>
+	<p><%- firstName %> <%- lastName %></p>
 </script>
 
 <script type="text/template" id="contact-list-item">
-    <li><%- firstName %> <%- lastName %></li>
+	<li><%- firstName %> <%- lastName %></li>
 </script>
+<!-- End  : define template -->
 
 <script src=".vendor/jquery/dist/jquery.min.js"></script>
 <script src=".vendor/json2/json2.js"></script>
+
+<!--
 <script src=".vendor/underscore/underscore-min.js"></script>
 <script src=".vendor/backbone/backbone-min.js"></script>
 <script src=".vendor/backbone.marionette/lib/backbone.marionette.min.js"></script>
+-->
 
-<script src="js/ContactManager.js"></script>
 
-</body>
+<script src="bin/member-manager.js"></script>
+
+</body> <!-- end  : body -->
 
 </html>
